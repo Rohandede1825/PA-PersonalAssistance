@@ -14,6 +14,7 @@ const Profile = () => {
                 alt="Profile"
                 className="w-32 h-32 rounded-full border-4 border-white"
               />
+              
               <button className="absolute bottom-0 right-0 bg-gray-100 p-2 rounded-full hover:bg-gray-200">
                 <FaCamera className="text-gray-600" />
               </button>
