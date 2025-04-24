@@ -28,7 +28,6 @@ const Profile = () => {
             {/* Personal Information */}
             <div className="space-y-6">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Personal Information</h3>
-              
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <FaUser className="text-gray-400 w-5 h-5" />
