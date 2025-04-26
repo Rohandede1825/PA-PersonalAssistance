@@ -2,6 +2,7 @@ import React from 'react'
 import { FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt, FaBriefcase, FaCamera } from 'react-icons/fa'
 
 const Profile = () => {
+  
   return (
     <div className="max-w-4xl mx-auto py-8 px-4">
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
