@@ -25,6 +25,17 @@ const Settings = () => {
             Configure
           </button>
         </div>
+
+
+        
+      </div>
+      <div className='text-3xl justify-center font-semibold pt-2'>
+          <h1>The Settings Information which done for personal assistance</h1>
+      </div>
+
+
+      <div>
+        
       </div>
     </div>
   );
