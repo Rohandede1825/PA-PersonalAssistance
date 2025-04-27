@@ -7,6 +7,7 @@ import Settings from "./pages/Settings";
 import { Menu } from "lucide-react";
 
 const App = () => {
+
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
