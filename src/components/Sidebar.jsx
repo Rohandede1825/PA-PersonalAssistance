@@ -9,7 +9,6 @@ const Sidebar = ({ onClose }) => {
   ];
 
   return (
-    
     <div className="min-h-screen w-64 bg-[#111827] text-gray-200 p-4 shadow-lg">
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-2xl font-bold text-[#01A9B6]">MyDashboard</h1>

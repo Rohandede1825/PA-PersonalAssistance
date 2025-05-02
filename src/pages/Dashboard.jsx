@@ -57,7 +57,7 @@ const Dashboard = () => {
       <div className="flex flex-col lg:flex-row justify-between items-start gap-6">
         <div className="w-full lg:w-2/3">
           <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">
-            Welcome back, John! 👋
+            Welcome back, John! 
           </h2>
           {/* Summary Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
