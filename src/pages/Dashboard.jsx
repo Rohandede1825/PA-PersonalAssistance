@@ -59,6 +59,9 @@ const Dashboard = () => {
           <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">
             Welcome back, John! 
           </h2>
+
+
+          
           {/* Summary Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-6 rounded-xl shadow-md text-white">
