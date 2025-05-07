@@ -71,11 +71,6 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-
-
-
-
-        
         
         <div className="w-full lg:w-auto">
           <Calendar
@@ -98,6 +93,7 @@ const Dashboard = () => {
             </select>
           </div>
           <div className="h-[300px]">
+
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={expenseData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
@@ -125,6 +121,7 @@ const Dashboard = () => {
                 />
               </BarChart>
             </ResponsiveContainer>
+
           </div>
         </div>
 
@@ -139,6 +136,7 @@ const Dashboard = () => {
           </div>
           <div className="h-[300px]">
             <ResponsiveContainer width="100%" height="100%">
+
               <PieChart>
                 <Pie
                   data={categoryData}
@@ -157,6 +155,7 @@ const Dashboard = () => {
                     />
                   ))}
                 </Pie>
+
                 <Tooltip 
                   contentStyle={{ 
                     background: 'white', 
@@ -165,11 +164,13 @@ const Dashboard = () => {
                     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' 
                   }}
                 />
+
                 <Legend 
                   verticalAlign="bottom" 
                   height={36}
                   formatter={(value, entry) => <span className="text-gray-600">{value}</span>}
                 />
+
               </PieChart>
             </ResponsiveContainer>
           </div>
@@ -202,6 +203,7 @@ const Dashboard = () => {
             </div>
           ))}
         </div>
+        
       </div>
     </div>
   );
