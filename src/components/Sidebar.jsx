@@ -22,6 +22,7 @@ const Sidebar = ({ onClose }) => {
       <ul className="space-y-4">
         {navItems.map(({ name, path, icon }) => (
           <li key={name}>
+            
             <NavLink
               to={path}
               onClick={onClose}
