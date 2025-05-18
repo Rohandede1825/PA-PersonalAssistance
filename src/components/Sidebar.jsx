@@ -31,6 +31,8 @@ const Sidebar = ({ onClose }) => {
                   isActive ? "bg-[#01A9B6] text-white" : "hover:bg-[#1f2937]"
                 }`
               }
+
+              
             >
               {icon}
               <span>{name}</span>
