@@ -8,6 +8,10 @@ const Sidebar = ({ onClose }) => {
     { name: "Settings", path: "/settings", icon: <Settings size={20} /> },
   ];
 
+
+
+  
+
   return (
     <div className="min-h-screen w-64 bg-[#111827] text-gray-200 p-4 shadow-lg">
       <div className="flex items-center justify-between mb-8">
