@@ -7,9 +7,6 @@ const Sidebar = ({ onClose }) => {
     { name: "Profile", path: "/profile", icon: <User size={20} /> },
     { name: "Settings", path: "/settings", icon: <Settings size={20} /> },
   ];
-
-
-
   
 
   return (
